@@ -1,12 +1,12 @@
-[![license](https://img.shields.io/github/license/RedisAI/redisai-js.svg)](https://github.com/RedisAI/redisai-js)
-[![CircleCI](https://circleci.com/gh/RedisAI/redisai-js/tree/master.svg?style=svg)](https://circleci.com/gh/RedisAI/redisai-js/tree/master)
-[![npm version](https://badge.fury.io/js/redisai-js.svg)](https://badge.fury.io/js/redisai-js)
+[![license](https://img.shields.io/github/license/filipecosta90/node-redisai-js.svg)](https://github.com/filipecosta90/node-redisai-js)
+[![CircleCI](https://circleci.com/gh/filipecosta90/node-redisai-js/tree/master.svg?style=svg)](https://circleci.com/gh/filipecosta90/node-redisai-js/tree/master)
+[![npm version](https://badge.fury.io/js/node-redisai-js.svg)](https://badge.fury.io/js/node-redisai-js)
 
-# A high performance Node.js RedisAI client, on top of [node_redis](https://github.com/NodeRedis/node_redis)
+## A high performance Node.js RedisAI client, on top of [node-redis](https://github.com/NodeRedis/node_redis)
 [![Forum](https://img.shields.io/badge/Forum-RedisAI-blue)](https://forum.redislabs.com/c/modules/redisai)
 [![Gitter](https://badges.gitter.im/RedisLabs/RedisAI.svg)](https://gitter.im/RedisLabs/RedisAI?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
-This package allows [node_redis](https://github.com/NodeRedis/node_redis) (2.8+) to interface with the [RedisAI module](http://redisai.io/).
+This package allows [node-redis](https://github.com/NodeRedis/node_redis) (2.8+) to interface with the [RedisAI module](http://redisai.io/).
 
 To use this module, you will need Redis 4.0 or higher and the RedisAI module installed.
 
@@ -17,7 +17,7 @@ The RedisAI commands will be mapped to javascript-friendly names (`ai.tensorset`
 ```js
 var
    redis    = require('redis'),
-   redisai  = require('redisai-js');
+   redisai  = require('node-redisai-js');
 
 redisai(redis);
 ```
@@ -35,7 +35,7 @@ The inputs for the example are the tensors stored under the 'tA' and 'tB' keys. 
 
 ```javascript
 var redis = require('redis');
-var redisai = require('redisai-js');
+var redisai = require('node-redisai-js');
 var fs = require('fs')
 redisai(redis);
 

@@ -1,5 +1,5 @@
 {
-  "name": "redisai-js",
+  "name": "node-redisai-js",
   "version": "0.1.0",
   "description": "RedisAI bindings for node_redis",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/filipecosta90/redisai-js"
+    "url": "git+https://github.com/filipecosta90/node-redisai-js"
   },
   "dependencies": {
     "redis": "^2.8.0"

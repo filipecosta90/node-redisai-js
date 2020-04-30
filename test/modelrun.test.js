@@ -1,11 +1,10 @@
 'use strict';
 var redis = require('redis');
 var helper = require('./helper');
-var redisai = require('../index');
 var assert = require('assert');
-var fs = require('fs')
-
-redisai(redis)
+var fs = require('fs');
+var node_redisai = require('../index');
+node_redisai(redis);
 
 var model_blob = fs.readFileSync('./test/test_data/graph.pb');
 

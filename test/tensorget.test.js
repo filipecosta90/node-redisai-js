@@ -1,8 +1,8 @@
 'use strict';
 var redis = require('redis');
 var helper = require('./helper');
-var redisai = require('../index');
-redisai(redis)
+var node_redisai = require('../index');
+node_redisai(redis);
 
 describe('AI.TENSORGET tests', function () {
     var client;

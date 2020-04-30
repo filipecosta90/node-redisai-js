@@ -1,7 +1,7 @@
 version: 2.1
 jobs:
   build:
-    working_directory: ~/redisai-js
+    working_directory: ~/node-redisai-js
     docker:
       - image: circleci/node:10.16.3
       - image: redisai/redisai:edge
