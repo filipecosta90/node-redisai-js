@@ -2,7 +2,7 @@
 [![CircleCI](https://circleci.com/gh/filipecosta90/node-redisai-js/tree/master.svg?style=svg)](https://circleci.com/gh/filipecosta90/node-redisai-js/tree/master)
 [![npm version](https://badge.fury.io/js/node-redisai-js.svg)](https://badge.fury.io/js/node-redisai-js)
 
-## A high performance Node.js RedisAI client, on top of [node-redis](https://github.com/NodeRedis/node_redis)
+## RedisAI bindings for node_redis [node-redis](https://github.com/NodeRedis/node_redis)
 [![Forum](https://img.shields.io/badge/Forum-RedisAI-blue)](https://forum.redislabs.com/c/modules/redisai)
 [![Gitter](https://badges.gitter.im/RedisLabs/RedisAI.svg)](https://gitter.im/RedisLabs/RedisAI?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
@@ -22,10 +22,7 @@ var
 redisai(redis);
 ```
 
-
 ## Example 
-
-
 
 ## Running Models
 Once a RedisAI Model key has been set with `AI.MODELSET` it can be run with any Tensor keys from the database as its input. The model's output, after it was executed, is stored in RedisAI Tensors as well.
